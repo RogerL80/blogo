@@ -75,7 +75,7 @@
                         <form method="POST" action="{{ route('logout') }}" x-data>
                             @csrf
                             <a href="{{ route('logout') }}" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2" @click.prevent="$root.submit();">
-                                Sign out
+                                Cerrar Sesion
                             </a>
                         </form>
                     </div>
